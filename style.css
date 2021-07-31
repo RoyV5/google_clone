@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .navheader {
@@ -9,7 +10,7 @@ body {
 .navheader ul {
     font-size: 0.8em;
     list-style-type: none;
-    margin: 0;
+    margin: 15px 10px;
     padding: 0;
     display: flex;
     flex-flow: row wrap;
@@ -19,14 +20,13 @@ body {
 
 .navheader li {
     display: inline-block;
-    padding: 5px 0px;
+    padding: 0px 10px;
     margin: 0px 2px;
 }
 
 .navheader a {
     color: rgb(44, 44, 44);
     text-decoration: none;
-    padding: 7px 10px;
 }
 
 .navheader a:hover {
@@ -34,10 +34,10 @@ body {
 }
 
 #sign-in-button {
-    font-weight: 600;
+    font-weight: 500;
     background-color: #4285f4;
     color: white;
-    padding: 7px 10px;
+    padding: 5px 12px;
     border: 1px solid #4285f4;
 }
 
@@ -81,6 +81,7 @@ body {
 
 #searchbox-container input {
     border: none;
+    width: 90%;
 }
 
 #searchbox-container input:focus {
@@ -122,8 +123,41 @@ body {
     color: black;
     border: 1px solid rgb(168, 168, 168);
     box-shadow: 0px 1px 0px 0px #F2F2F2;
+    cursor: pointer;
 }
 
 #searchbox-buttons button:focus {
     border: 1px solid #4D90FE;
+}
+
+.navfooter {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.navfooter ul {
+    padding: 0px 20px;
+    font-size: 0.9em;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: end;
+    flex-flow: row wrap;
+    list-style-type: none;
+    background-color: #F2F2F2;
+}
+
+.navfooter li {
+    display: inline-block;
+    padding: 12px 11px;
+    margin: 0px 0px;
+}
+
+.navfooter a {
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+
+.navfooter a:hover {
+    text-decoration: underline;
 }
