@@ -88,4 +88,42 @@ body {
     outline: none;
 }
 
+#searchbox-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+}
 
+#searchbox-buttons button 
+{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: normal;
+    color:rgba(53, 53, 53, 0.884);
+    display: block;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+}
+
+#searchbox-buttons button {
+    background-color: #F2F2F2;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-weight: 300;
+    color:rgba(53, 53, 53, 0.884);
+    display: block;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+}
+
+#searchbox-buttons button:hover {
+    color: black;
+    border: 1px solid rgb(168, 168, 168);
+    box-shadow: 0px 1px 0px 0px #F2F2F2;
+}
+
+#searchbox-buttons button:focus {
+    border: 1px solid #4D90FE;
+}
