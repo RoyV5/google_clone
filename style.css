@@ -48,3 +48,44 @@ body {
 #store {
     margin-right: auto;
 }
+
+#main-img {
+    margin-top: 105px;
+}
+
+#main-img img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    color: #9AA0A6;
+    font-size: 20px;
+}
+
+#searchbox-container {
+    padding: 12px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 43%;
+    margin: 25px auto;
+    border: 1px solid #DFE1E5;
+    border-radius: 30px;
+}
+
+#searchbox-container:hover {
+    box-shadow: 1px 1px 5px 1px#ccc;;
+}
+
+#searchbox-container input {
+    border: none;
+}
+
+#searchbox-container input:focus {
+    border: none;
+    outline: none;
+}
+
+
